@@ -17,7 +17,7 @@ const FunctionalComponent = () => {
   return (
     <div className="functional-component">
       <ul>
-        <li>這是 Functional Component</li>
+        <li>這是 Functional ComponentAA</li>
         <li>name:{name}</li>
         <li>今天日期： {new Date().toDateString()}</li>
         <li>1+1={1 + 1}</li>

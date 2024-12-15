@@ -18,4 +18,5 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
   },
+  base:process.env.NODE_ENV==='production'?"/gh-deploy_test3/":"/"
 });
